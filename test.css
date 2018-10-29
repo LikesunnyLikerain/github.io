@@ -1,0 +1,21 @@
+/*
+* @Author: anchen
+* @Date:   2018-10-29 21:21:42
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-10-29 21:50:42
+*/
+.forgive_her{
+    height:320px;
+    width:320px;
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:green;
+}
+.forgive_her p{
+    text-align:center;
+    font-size:48px;
+}
