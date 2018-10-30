@@ -1,21 +1,119 @@
-/*
-* @Author: anchen
-* @Date:   2018-10-29 21:21:42
-* @Last Modified by:   anchen
-* @Last Modified time: 2018-10-29 21:50:42
-*/
-.forgive_her{
-    height:320px;
-    width:320px;
-    margin:auto;
-    position:absolute;
+/*head*/
+.page-header{
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #F0F0F0;
+    position:relative;
     top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    background-color:green;
 }
-.forgive_her p{
-    text-align:center;
-    font-size:48px;
+.page-header nav{
+    position:absolute;
+    right:0;
+}
+.page-header nav a:link{
+    color:black;
+}
+.page-header nav a:active{
+    color:blue;
+}
+.page-header nav a{
+    padding-left:20px;
+}
+.page-header nav a:last-child{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    margin-left:15px;
+    height:30px;
+    line-height:30px;
+    width:80px;
+    background-color:#38f;
+}
+.page-header nav a:last-child:hover{
+    background-color:#F0F0F0;
+    color:#000;
+}
+
+/*main*/
+.page-mainer{
+    position:absolute;
+    width:580px;
+    height:340px;
+    top:50px;
+    left:50%;
+    margin-left:-290px;
+}
+.form-container{
+    width:580px;
+    height:25px;
+}
+.form-search{
+    width:480px;
+    height:20px;
+    padding: 9px 7px;
+    font: 16px arial;
+    border: 1px solid #b8b8b8;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: top;
+    outline: none;
+    box-shadow: none;
+    float:left;
+}
+.submit-btn{
+    width:85px;
+    height:40px;
+    line-height:40px;
+    background-color:#38f;
+    color:#F0F0F0;
+    border:none;
+    box-shadow:none;
+    float:left;
+}
+.submit-btn:hover{
+    cursor:pointer;
+    background-color:#2868c8;
+}
+
+/*footer*/
+.page-footer{
+    height:320px;
+    width:1200px;
+    position:absolute;
+    top:450px;
+    left:50%;
+    margin-left:-600px;
+}
+.qrcode-contaienr{
+    height:60px;
+    width:60px;
+    position:relative;
+    left:50%;
+    margin-left:-30px;
+    bottom:15px;
+}
+.footer-info{
+    height:30px;;
+    position:absolute;
+    left:418px;
+}
+.footer-info a{
+    padding-right:5px;
+    color:#000;
+}
+.footer-info a:active{
+    color:#4169E1;
+}
+.footer-infored{
+    height:30px;
+    position:absolute;
+    top:100px;
+    left:285px;
+}
+.footer-infored a{
+    padding-right:5px;
+    color:#000;
+}
+.footer-infored a:active{
+    color:#4169E1;
 }
